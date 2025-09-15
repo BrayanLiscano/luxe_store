@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LUXE STORE - Perfumes & Relojes</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <div class="logo">LUXE <span>STORE</span></div>
+      <nav class="main-nav">
+        <a href="#productos">Productos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-text">
+          <h1>Perfumes &amp; Relojes de lujo</h1>
+          <p>Curado para los amantes del estilo — descubre piezas únicas y fragancias icónicas.</p>
+          <a class="btn btn-primary" href="#productos">Explorar colección</a>
+        </div>
+        <div class="hero-art">
+          <img src="https://via.placeholder.com/520x360?text=Luxe+Showcase" alt="Luxe showcase">
+        </div>
+      </div>
+    </section>
+
+    <!-- BUSCADOR + FILTROS -->
+    <section class="controls wrap">
+      <div class="search">
+        <input id="buscar" type="search" placeholder="🔍 Buscar perfume o reloj..." aria-label="Buscar productos">
+      </div>
+      <div class="filtros">
+        <button class="filter-btn active" data-cat="Todas">Todas</button>
+        <button class="filter-btn" data-cat="Perfume">Perfumes</button>
+        <button class="filter-btn" data-cat="Reloj">Relojes</button>
+      </div>
+    </section>
+
+    <!-- PRODUCTOS -->
+    <section id="productos" class="wrap productos-section">
+      <h2>Nuestros productos</h2>
+      <div id="lista-productos" class="grid-productos" aria-live="polite">
+        <!-- Productos se generan con JS -->
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="wrap contacto-section">
+      <h2>Contáctanos</h2>
+      <form id="contacto-form">
+        <div class="form-row">
+          <input type="text" name="nombre" placeholder="Tu nombre" required>
+          <input type="email" name="email" placeholder="Tu correo" required>
+        </div>
+        <textarea name="mensaje" placeholder="Tu mensaje..." required></textarea>
+        <div class="form-actions">
+          <button class="btn" type="submit">Enviar mensaje</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- CARRITO FLOTANTE -->
+  <button id="abrir-carrito" class="abrir-carrito" aria-label="Abrir carrito">🛒 <span id="cart-count" class="cart-count">0</span></button>
+
+  <aside id="carrito" class="carrito" aria-hidden="true">
+    <div class="carrito-header">
+      <h3>Tu carrito</h3>
+      <button id="cerrar-carrito" class="close-btn" aria-label="Cerrar carrito">✖</button>
+    </div>
+    <div id="carrito-items" class="carrito-items"></div>
+    <div class="carrito-footer">
+      <div class="carrito-total" id="carrito-total">Total: $0</div>
+      <div class="carrito-actions">
+        <button id="vaciar-carrito" class="btn">Vaciar</button>
+        <button id="checkout" class="btn btn-primary">Comprar</button>
+      </div>
+    </div>
+  </aside>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; 2025 LUXE STORE - Perfumes & Relojes. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
