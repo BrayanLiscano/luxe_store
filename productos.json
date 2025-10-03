@@ -1,0 +1,51 @@
+
+[
+  {
+    "id": 1,
+    "nombre": "Perfume Dior Sauvage",
+    "descripcion": "Fragancia fresca y elegante",
+    "precio": 350000,
+    "categoria": "Perfume",
+    "imagen": "https://fimgs.net/mdimg/perfume/375x500.31253.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Chanel No. 5",
+    "descripcion": "Clásico perfume femenino",
+    "precio": 600000,
+    "categoria": "Perfume",
+    "imagen": "https://fimgs.net/mdimg/perfume/375x500.138.jpg"
+  },
+  {
+    "id": 3,
+    "nombre": "Reloj Rolex Submariner",
+    "descripcion": "Reloj de lujo atemporal",
+    "precio": 25000000,
+    "categoria": "Reloj",
+    "imagen": "https://content.rolex.com/dam/2022/upright-bba-with-shadow/m126610lv-0002.png"
+  },
+  {
+    "id": 4,
+    "nombre": "Reloj Casio Vintage",
+    "descripcion": "Diseño retro con funciones básicas",
+    "precio": 250000,
+    "categoria": "Reloj",
+    "imagen": "public/img/casio-vintage.webp"
+  },
+  {
+    "id": 5,
+    "nombre": "Pulsera Minimalista",
+    "descripcion": "Accesorio elegante en acero inoxidable",
+    "precio": 120000,
+    "categoria": "Accesorio",
+    "imagen": "https://cdn.shopify.com/s/files/1/0020/7472/9919/products/PulseraAceroInoxidable_1200x.jpg"
+  },
+  {
+    "id": 6,
+    "nombre": "Perfume Hugo Boss Bottled",
+    "descripcion": "Fragancia masculina con notas de manzana y canela",
+    "precio": 300000,
+    "categoria": "Sale",
+    "imagen": "https://fimgs.net/mdimg/perfume/375x500.89.jpg"
+  }
+]
